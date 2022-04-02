@@ -13,5 +13,11 @@ export const envConfiguration = () => {
       secret: process.env.JWT_SECRET,
       expiration: process.env.JWT_EXPIRATION,
     },
+    aws: {
+      region: process.env.AWS_REGION,
+      accesId: process.env.AWS_ACCESS_ID,
+      secret: process.env.AWS_SECRET,
+      bucket: process.env.AWS_BUCKET,
+    },
   };
 };
